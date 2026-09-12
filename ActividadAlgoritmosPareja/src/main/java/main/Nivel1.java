@@ -12,6 +12,29 @@ import javax.swing.JOptionPane;
  */
 public class Nivel1 {
     
+    
+    //metodos nivel basico
+    public void metodo1(){
+        
+        double[] numeros = {8.5,9.2,7.4,6.0};
+        
+        System.out.println("La longitu es de: "+ numeros.length);
+        System.out.println("El ultimo elemento es: "+ numeros[3]);
+        
+       
+        
+    }//fin del metodo1
+    
+    
+    public void metodo2(){
+        boolean[] valores={true, true, false, true, false,false};
+        
+        for(int i=0; i<valores.length; i++){
+            System.out.println("["+ i + "]= "+ valores[i]);
+        }
+    }//fin del metodo2
+    
+    
      public void FundamentoInt(){  //muestar en orden los numeros que digito
         
         int numeros[] = new int[8];
