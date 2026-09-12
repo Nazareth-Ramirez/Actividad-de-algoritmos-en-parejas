@@ -4,12 +4,39 @@
  */
 package main;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author yaris
  */
 public class Nivel1 {
     
-    //agregue una nueva clase
+     public void FundamentoInt(){  //muestar en orden los numeros que digito
+        
+        int numeros[] = new int[8];
+        String resultado = "";
+        
+        
+        for(int i=0; i<numeros.length; i++){
+            numeros[i]=Integer.parseInt(JOptionPane.showInputDialog("digite cualalquier numero para guardar"));
+            resultado += numeros[i] + ",";
+            
+            
+        }//FIN DEL FOR
+        JOptionPane.showMessageDialog(null, "los numeros que digito fueron: "+resultado);
+        
+    }//fin del int
+    
+    public void FundamentosChar(){   //cuenta cuantas letras tiene la palabra asignada
+        
+        char nombres[] = {'y', 'a', 'r', 'i', 'l', 'i', 's'};
+        
+        for(int i=0; i<nombres.length; i++){
+             JOptionPane.showMessageDialog(null, "la letra "+ (i+1)+ ": " +nombres[i]);
+            
+        }//fin del for
+        
+    }//fin del char
     
 }
