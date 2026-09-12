@@ -18,10 +18,10 @@ public class Nivel1 {
         
         double[] numeros = {8.5,9.2,7.4,6.0};
         
-        System.out.println("La longitu es de: "+ numeros.length);
-        System.out.println("El ultimo elemento es: "+ numeros[3]);
+        JOptionPane.showMessageDialog(null, "La longitu es de: "+ numeros.length+ "\nEl ultimo elemento es: "+ numeros[3] );
         
-       
+//        System.out.println("La longitu es de: "+ numeros.length);
+//        System.out.println("El ultimo elemento es: "+ numeros[3]);
         
     }//fin del metodo1
     
@@ -30,8 +30,12 @@ public class Nivel1 {
         boolean[] valores={true, true, false, true, false,false};
         
         for(int i=0; i<valores.length; i++){
-            System.out.println("["+ i + "]= "+ valores[i]);
-        }
+            
+            JOptionPane.showMessageDialog (null, "["+ i + "]= "+ valores[i]);
+            
+//            System.out.println("["+ i + "]= "+ valores[i]);
+        }//fin del for
+        
     }//fin del metodo2
     
     

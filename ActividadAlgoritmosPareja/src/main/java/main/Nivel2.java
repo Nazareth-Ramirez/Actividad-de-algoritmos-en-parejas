@@ -12,6 +12,25 @@ import javax.swing.JOptionPane;
  */
 public class Nivel2 {
     
+    //Nivel intertmedio-basico
+    public void metodo5(){
+        
+        double[] numerosDeci = new double[8];
+        double suma=0.0;
+        
+        for(int i = 0; i<numerosDeci.length; i++){
+            
+            numerosDeci[i]= Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el numero decimal: "));
+            suma+=numerosDeci[i];
+     
+        }
+        
+        double promedio = suma/numerosDeci.length;
+        
+        JOptionPane.showMessageDialog (null, "Promedio " + String.format ("%.2f%n " , promedio ));
+    }//fin del metodo5
+    
+    
     public void CantVocales(){
         
         char vocales[] = {'a', 'e', 'i', 'o', 'u'};
