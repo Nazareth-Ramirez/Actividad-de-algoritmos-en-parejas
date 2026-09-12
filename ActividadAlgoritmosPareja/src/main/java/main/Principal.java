@@ -16,11 +16,16 @@ public class Principal{
            //Nivel1 basico = new Nivel1();
         //basico.FundamentosChar();
         
-        Nivel2 basico = new Nivel2();
-        basico.LeerNum();
+        //Nivel2 basico = new Nivel2();
+        //basico.LeerNum();
         
         //Nivel3 inter = new Nivel3();
         //inter.LeerValor();
+        
+        Nivel3 inter = new Nivel3();
+        inter.ContarChar();
+        
+        
     }
     
 }
